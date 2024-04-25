@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+
+body{
+    min-height: 100vh;
+    background-image: url(./mainpagee.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px 1000px;
+}
+
+nav{
+    background-color:#4b4a4a;
+    box-shadow: 3px 3px 5px rgb(255, 0, 0);
+}
+
+nav ul{
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+
+    color: rgb(255, 255, 255)
+}
+
+nav a :hover{
+    background-color: blueviolet;
+}
+nav li :first-child{
+    margin-right: 100;
+}
